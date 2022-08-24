@@ -1,0 +1,18 @@
+@mixin card-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+}
+
+@mixin logo-rectangles {
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+@mixin lines-hamburger {
+  height: 2px;
+  background: #ffffff;
+  border-radius: 5px;
+}

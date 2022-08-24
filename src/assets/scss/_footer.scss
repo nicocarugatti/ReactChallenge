@@ -1,0 +1,59 @@
+.Container-footer {
+  width: 100%;
+  margin-top: 5rem;
+  .Footer-1 {
+    background: $primary;
+    height: 6px;
+  }
+  .Footer-2 {
+    height: 55px;
+    background: #313131;
+    .Logo-footer {
+      margin-right: 1rem;
+      .Gallery-footer {
+        font-family: "Oriya MN";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        color: #ffffff;
+        position: relative;
+        .Rectangle {
+          @include logo-rectangles;
+          left: 92.49%;
+          right: 42.81%;
+          top: -14.83%;
+          bottom: -2.83%;
+          background: $primary;
+          width: 9px;
+          height: 9px;
+        }
+        .Rectangle-2 {
+          @include logo-rectangles;
+          left: 89.33%;
+          right: 52.94%;
+          top: -23%;
+          bottom: 4.32%;
+          background: #313131;
+          width: 9px;
+          height: 9px;
+        }
+      }
+    }
+    .Text {
+      font-family: "Nunito Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 26px;
+      color: #ffffff;
+      padding-top: 0.5rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .Logo-footer {
+    display: none !important;
+  }
+}

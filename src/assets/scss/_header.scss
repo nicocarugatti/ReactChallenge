@@ -1,0 +1,27 @@
+.Header {
+  height: 208px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../assets/imgs/header.png);
+  left: 0px;
+  top: 68px;
+  .Text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .Header {
+    .Text {
+      font-size: 35px;
+      line-height: 41px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.Card {
+  background: rgba(214, 213, 214, 0.45) !important;
+  border-radius: 10px !important;
+  border: none !important;
+  .Img-card {
+    background: #d6d5d6;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .Img-avatar {
+    border-radius: 50%;
+  }
+  .Container-footer {
+    margin-left: 10px;
+    .Container-text {
+      margin-left: 10px;
+      .Text-1 {
+        @include card-text;
+        font-weight: 500;
+        color: #313131;
+      }
+      .Text-2 {
+        @include card-text;
+        font-weight: 400;
+        color: #000000;
+      }
+    }
+  }
+}
