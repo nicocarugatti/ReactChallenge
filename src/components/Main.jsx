@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { Card } from "./Card";
-import cardImg from "../../assets/imgs/card.png";
-import avatarImg from "../../assets/imgs/avatar.png";
+import cardImg from "../assets/imgs/card.png";
+import avatarImg from "../assets/imgs/avatar.png";
 
 const text1 = "Sam Jerremy";
 const text2 = "#dayAtTheBeach";
