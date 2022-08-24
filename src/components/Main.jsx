@@ -30,16 +30,18 @@ export const Main = () => {
       <div className="mt-4">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         {Cards.map((item, index) => <div className="col" key={index}>
-            <Card
-              mainImg={item.mainImg}
-              avatar={item.avatar}
-              text1={item.text1}
-              text2={item.text2}
-            />
-          </div>)}
+              <Card
+                mainImg={item.mainImg}
+                avatar={item.avatar}
+                text1={item.text1}
+                text2={item.text2}
+              />
+            </div>)}
+          
         </div>
       </div>
       <a
+        className="Load-text text-center"
       >
         Load More
       </a>
